@@ -150,3 +150,15 @@ form .btn .batal {
   padding: 10px 0;
   background-color: #db4949;
 }
+/* hasil */
+.boxx {
+  background-color: white;
+  padding: 30px;
+  margin: auto;
+  margin-top: 70px;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.137);
+}
+table {
+  padding-top: 30px;
+}
