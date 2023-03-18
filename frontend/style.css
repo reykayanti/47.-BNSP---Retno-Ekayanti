@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
 nav {
   display: flex;
@@ -96,4 +97,56 @@ footer {
   text-align: center;
   color: white;
   font-size: 14px;
+}
+/* Daftar */
+main {
+  background-color: #f6f6f6;
+  height: 1000px;
+}
+h2 {
+  padding-top: 50px;
+}
+.box {
+  background-color: white;
+  padding: 30px;
+  margin: auto;
+  margin-top: 70px;
+  width: 70%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.137);
+}
+form {
+  margin-top: 30px;
+}
+form input {
+  padding: 5px;
+  width: 99%;
+  margin-bottom: 13px;
+}
+form select {
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 13px;
+}
+form .btn {
+  padding-top: 50px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+form a {
+  color: black;
+  font-weight: 500;
+}
+form .btn .daftar {
+  text-align: center;
+  width: 140px;
+  padding: 10px 0;
+  background-color: #49db58;
+}
+form .btn .batal {
+  text-align: center;
+  width: 140px;
+  padding: 10px 0;
+  background-color: #db4949;
 }

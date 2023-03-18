@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Pendaftaran Beasiswa</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#"><div class="logo">Universitas Nasional</div></a>
+      <ul>
+        <li><a href="daftar.html">Daftar</a></li>
+        <li><a href="hasil.html">Hasil</a></li>
+      </ul>
+    </nav>
+    <main>
+      <center>
+        <h2>Daftar Beasiswa</h2>
+      </center>
+      <div class="box">
+        <h3>Registrasi Beasiswa</h3>
+        <hr />
+        <form action="">
+          <label for="">Masukkan Nama</label><br />
+          <input type="text" name="nama" id="nama" class="" required />
+          <label for="">Masukkan Email</label><br />
+          <input type="mail" name="email" id="email" class="" required />
+          <label for="">Nomor HP</label><br />
+          <input type="number" name="nama" id="nama" class="" required />
+          <label for="">Semester Saat Ini</label><br />
+          <select name="semester" id="semester">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+          </select>
+          <label for="">IPK Terakhir</label><br />
+          <input type="text" name="ipk" id="ipk" class="" style="background-color: rgb(247, 247, 247)" required readonly />
+          <label for="">Pilihan Beasiswa</label><br />
+          <select name="beasiswa" id="beasiswa">
+            <option value="akademik">akademik</option>
+            <option value="olahraga">olahraga</option>
+            <option value="seni">seni</option>
+          </select>
+          <label for="#">Upload Berkas Syarat</label>
+          <input type="file" />
+          <div class="btn">
+            <a href="#"><div class="daftar">Daftar</div></a>
+            <a href="#"><div class="batal">Batal</div></a>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>Copyright © Retno Ekayanti - Universitas Nasional</footer>
+  </body>
+</html>
