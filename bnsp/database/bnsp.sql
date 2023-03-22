@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 19 Mar 2023 pada 04.54
+-- Waktu pembuatan: 22 Mar 2023 pada 15.24
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 8.0.25
 
@@ -42,8 +42,9 @@ CREATE TABLE `beasiswa` (
 --
 
 INSERT INTO `beasiswa` (`id_beasiswa`, `nama`, `email`, `hp`, `semester`, `pilihan`, `berkas`) VALUES
-(23612, 'Retno Ekayanti', 'retnoekayanti15@gmail.com', '089650017574', '7', 'Akademik', 'Tanda_tangan-removebg-preview_1.png'),
-(23613, 'Yuliana setyo', 'yuliana@gmail.com', '089650017574', '1', 'seni', 'Ayumanda.pdf');
+(23614, 'Retno Ekayanti', 'retnoekayanti15@gmail.com', '089650017574', '7', 'olahraga', 'merged.pdf'),
+(23615, 'Yuliana', 'yul', '089650017574', '1', 'olahraga', 'md-duran-1VqHRwxcCCw-unsplash.jpg'),
+(23616, 'Yuliana', 'yuliana@gmail.com', '089650017574', '1', 'olahraga', 'md-duran-1VqHRwxcCCw-unsplash_1.jpg');
 
 -- --------------------------------------------------------
 
@@ -65,7 +66,7 @@ INSERT INTO `mahasiswa` (`id_mahasiswa`, `nama_mahasiswa`, `ipk`) VALUES
 (19700650, 'Retno Ekayanti', '3.89'),
 (19700651, 'Haikal', '3.43'),
 (19700652, 'Megawati', '3.20'),
-(19700653, 'Yuliana Setyo', '3.80');
+(19700653, 'Yuliana', '3.80');
 
 --
 -- Indexes for dumped tables
@@ -91,7 +92,7 @@ ALTER TABLE `mahasiswa`
 -- AUTO_INCREMENT untuk tabel `beasiswa`
 --
 ALTER TABLE `beasiswa`
-  MODIFY `id_beasiswa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23614;
+  MODIFY `id_beasiswa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23617;
 
 --
 -- AUTO_INCREMENT untuk tabel `mahasiswa`
