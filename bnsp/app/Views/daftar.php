@@ -13,7 +13,7 @@
           <input type="text" name="nama" id="nama" class="" onkeyup="isi_otomatis()"/>
 
           <label for="">Masukkan Email</label><br />
-          <input type="mail" name="email" id="email" class="" required />
+          <input type="email" name="email" id="email" class="" required />
 
           <label for="">Nomor HP</label><br />
           <input type="number" name="hp" id="hp" class="" required />
@@ -46,7 +46,7 @@
 
           <div class="btn">
             <input type="submit" class="daftar" id="daftar" value="Daftar" disabled>
-            <a href="/daftar"><div class="batal">Batal</div></a>
+            <a href="/"><div class="batal">Batal</div></a>
           </div>
         </form>
       </div> 
